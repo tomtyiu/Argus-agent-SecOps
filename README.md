@@ -215,6 +215,18 @@ See `hermes claw migrate --help` for all options, or use the `openclaw-migration
 
 ---
 
+## SecOps Skills: 
+- cve-vulnerability-detection
+   Checks dependencies, products, containers, and SBOMs for known vulnerabilities. Matches exact versions against authoritative advisories, distinguishes confirmed exposure from uncertain matches, and prioritizes remediation.
+   Output: a vulnerability table with affected/fixed versions, evidence, severity, remediation, and verification steps.
+
+= security-review
+   Reviews code, APIs, configuration, infrastructure, and designs. Covers authentication, authorization, tenant isolation, input validation, secrets, data protection, resilience, and supply-chain risks. Separates confirmed findings from hypotheses.
+   Output: evidence-backed findings with severity, confidence, impact, recommended fixes, and regression checks.
+
+ -  threat-modeling
+   Evaluates a system’s architecture before or alongside implementation. Maps assets, actors, data flows, and trust boundaries; uses STRIDE to identify threats and prioritize controls.
+   Output: a threat register, mitigations, residual risks, assumptions, and a verification plan.
 ## Contributing
 
 We welcome contributions! See the [Contributing Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing) for development setup, code style, and PR process.
