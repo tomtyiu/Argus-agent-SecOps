@@ -27,8 +27,6 @@ Use any model you want — [Nous Portal](https://portal.nousresearch.com), OpenR
 </table>
 
 ---
-## This is a fork from Hermes Agent
-
 ## Quick Install
 
 ### Linux, macOS, WSL2, Termux
