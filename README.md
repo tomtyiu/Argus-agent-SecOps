@@ -309,4 +309,6 @@ scripts/run_tests.sh
 
 MIT — see [LICENSE](LICENSE).
 
-Built by [Nous Research](https://nousresearch.com).
+Built by Thomas Yiu. EpistemeAI
+
+Thanks to [Nous Research](https://nousresearch.com).
