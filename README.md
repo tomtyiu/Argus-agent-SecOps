@@ -216,17 +216,57 @@ See `hermes claw migrate --help` for all options, or use the `openclaw-migration
 ---
 
 ## SecOps Skills: 
-- **cve-vulnerability-detection**
-   Checks dependencies, products, containers, and SBOMs for known vulnerabilities. Matches exact versions against authoritative advisories, distinguishes confirmed exposure from uncertain matches, and prioritizes remediation.
-   Output: a vulnerability table with affected/fixed versions, evidence, severity, remediation, and verification steps.
+Defensive security workflows for vulnerability detection, security reviews, and threat modeling.
 
-- **security-review**
-   Reviews code, APIs, configuration, infrastructure, and designs. Covers authentication, authorization, tenant isolation, input validation, secrets, data protection, resilience, and supply-chain risks. Separates confirmed findings from hypotheses.
-   Output: evidence-backed findings with severity, confidence, impact, recommended fixes, and regression checks.
+### CVE Vulnerability Detection
 
- -  **threat-modeling**
-   Evaluates a system’s architecture before or alongside implementation. Maps assets, actors, data flows, and trust boundaries; uses STRIDE to identify threats and prioritize controls.
-   Output: a threat register, mitigations, residual risks, assumptions, and a verification plan.
+Skill: cve-vulnerability-detection
+
+Checks dependencies, products, containers, and SBOMs for known vulnerabilities.
+
+- Matches exact versions against authoritative advisories.
+- Distinguishes confirmed exposure from uncertain matches.
+- Prioritizes remediation based on risk and exposure.
+
+Output: A vulnerability table with affected and fixed versions, evidence, severity, remediation, and verification steps.
+
+Security Review
+
+### Skill: security-review
+
+Reviews code, APIs, configuration, infrastructure, and designs for security weaknesses.
+
+- Covers authentication, authorization, and tenant isolation.
+- Assesses input validation, secrets, and data protection.
+- Evaluates resilience and supply-chain risks.
+- Separates confirmed findings from hypotheses.
+
+Output: Evidence-backed findings with severity, confidence, impact, recommended fixes, and regression checks.
+
+Threat Modeling
+
+### kill: threat-modeling
+
+Evaluates a system’s architecture before or alongside implementation.
+
+- Maps assets, actors, data flows, and trust boundaries.
+- Uses STRIDE to identify threats.
+- Prioritizes controls and documents assumptions.
+
+Output: A threat register, mitigations, residual risks, assumptions, and a verification plan.
+
+Choosing a Skill
+
+| Goal                                                 | Skill                       |
+|------------------------------------------------------|-----------------------------|
+| Check software components for known vulnerabilities  | cve-vulnerability-detection |
+| Assess security weaknesses in an implementation      | security-review             |
+| Identify architectural threats and required controls | threat-modeling             |
+
+Scope
+
+These skills provide defensive agent workflows, not standalone scanners. They do not authorize exploitation or production changes.
+
 ## Contributing
 
 
