@@ -245,7 +245,7 @@ Output: Evidence-backed findings with severity, confidence, impact, recommended 
 
 Threat Modeling
 
-### kill: threat-modeling
+### Skill: threat-modeling
 
 Evaluates a system’s architecture before or alongside implementation.
 
