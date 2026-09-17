@@ -219,6 +219,12 @@ See `hermes claw migrate --help` for all options, or use the `openclaw-migration
 ---
 
 ## SecOps Skills: 
+### How to install
+```
+in Argus prompt>
+> Please load the cve-vulnerability-detection, security-review, threat-modeling skills
+```
+
 Defensive security workflows for vulnerability detection, security reviews, and threat modeling.
 
 ### CVE Vulnerability Detection
