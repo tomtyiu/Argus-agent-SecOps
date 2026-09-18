@@ -328,6 +328,8 @@ Built by Thomas Yiu. EpistemeAI
 
 Thanks to [Nous Research](https://nousresearch.com).
 
+---
+
 ## **This tool is for educational and authorized testing purposes only!**
 
 Argus Agent SecOps is a professional security testing platform designed to assist security researchers, penetration testers, and IT professionals in conducting security assessments and vulnerability research with explicit authorization.
