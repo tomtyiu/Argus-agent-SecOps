@@ -327,3 +327,15 @@ MIT — see [LICENSE](LICENSE).
 Built by Thomas Yiu. EpistemeAI
 
 Thanks to [Nous Research](https://nousresearch.com).
+
+## **This tool is for educational and authorized testing purposes only!**
+
+CyberStrikeAI is a professional security testing platform designed to assist security researchers, penetration testers, and IT professionals in conducting security assessments and vulnerability research with explicit authorization.
+
+By using this tool, you agree to:
+
+Use this tool only on systems where you have clear written authorization
+Comply with all applicable laws, regulations, and ethical standards
+Take full responsibility for any unauthorized use or misuse
+Not use this tool for any illegal or malicious purposes
+The developers are not responsible for any misuse! Please ensure your usage complies with local laws and regulations, and that you have obtained explicit authorization from the target system owner.
