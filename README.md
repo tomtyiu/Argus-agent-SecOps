@@ -330,7 +330,7 @@ Thanks to [Nous Research](https://nousresearch.com).
 
 ## **This tool is for educational and authorized testing purposes only!**
 
-CyberStrikeAI is a professional security testing platform designed to assist security researchers, penetration testers, and IT professionals in conducting security assessments and vulnerability research with explicit authorization.
+Argus Agent SecOps is a professional security testing platform designed to assist security researchers, penetration testers, and IT professionals in conducting security assessments and vulnerability research with explicit authorization.
 
 By using this tool, you agree to:
 
